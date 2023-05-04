@@ -1,0 +1,131 @@
+/* TODO: 보기 좋은 나만의 아고라 스테이츠를 위해서 CSS를 수정하세요. */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+  font-family: 'Neonderthaw', cursive;
+  color: whitesmoke;
+  font-size: 50px;
+  font: bold;
+}
+body{
+  background-color: #0b005e;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* a{
+  text-decoration: ;
+  color: ;
+} */
+
+.form__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+form{
+  background-color: lightslategray;
+  font-family: 'Dongle', sans-serif;
+  color: whitesmoke;
+  font-size: 22px;
+  width: 400px;
+  border-radius: 20px;
+  border:10px double white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.form__input--wrapper{
+  padding: 20px 60px;
+}
+
+.form__input--wrapper > div{ 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+label{
+  width: 120px;
+}
+
+.form__submit{
+  padding-bottom: 10px;
+}
+
+.hide {
+  display: none;
+}
+
+.discussion__wrapper{
+  width: 540px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+ul{
+  width: 540px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+li{
+  display: flex;
+  background-color: lightslategray;
+  border: 3px solid white;
+  align-items: center;
+  justify-content:space-around;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+
+.discussion__content{
+  width: 370px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.discussion__avatar--wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.discussion__avatar--image{
+  border-radius: 100%;
+}
+
+.discussion__title{
+  font-family: 'Dongle', sans-serif;
+  text-decoration-line: none;
+  font-size: 23px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.discussion__information{
+  color: #d3d3d3;
+  font-size: 1px;
+  margin-top: 10px;
+  text-align: end;
+}
